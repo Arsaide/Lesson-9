@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body {
+    font-family: 'Azeret Mono', monospace;
+}
+header {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.header-top  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+.logo {
+    text-align: center;
+    font-size: 22px;
+}
+.menu {
+    display: flex;
+}
+.header-bottom {
+    height: 92vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}   
+ul{
+    list-style-type: none;
+}
+ul li{
+    margin-right: 30px;
+}
+.welcome {
+    font-size: 48px;
+}
+.welcome-description {
+    font-size: 20px;
+}
+.btn {
+    border: white 3px solid;
+    color: white;
+    padding: 10px;  
+}
+.welcome-block {
+    float: left;
+}
+.content {
+    width: 100%;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-top {
+    text-align: center;
+    height: 20vh;
+}
+.content-bottom {
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.block-circle {
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    border: black 1px solid;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+.circle:hover {
+    transition: 1s;
+    transform: scale(1.2);
+    background-color: rgb(155, 32, 32);
+}
+#border {
+    border-bottom: black solid 2px;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(155, 32, 32);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-content {
+    text-align: center;
+}
+.footer-content-top {
+    display: flex;
+}
+.social-networks-ul {
+    list-style-type: none;
+}
+.social-networks-li {
+    margin-right: 10px;
+}
