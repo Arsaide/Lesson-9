@@ -45,6 +45,11 @@ ul li{
 li:hover {
     transform: scale(1.2);
 }
+.sign {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px white dashed;
+}
 .welcome {
     font-size: 48px;
 }
